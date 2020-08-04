@@ -1,4 +1,4 @@
-package com.jojoldu.book.springboot.web.dto;
+package com.jojoldu.book.springboot.web.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -8,5 +8,4 @@ import lombok.RequiredArgsConstructor;
 public class HelloResponseDto {
     private final String name;
     private final int amount;
-
 }
