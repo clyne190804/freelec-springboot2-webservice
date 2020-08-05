@@ -26,7 +26,7 @@ public class Posts {
     public Posts(String title, String content, String author){
         this.title = title;
         this.content = content;
-        this.author = author;
+        this.author = author;//테스트
 
     }
 }
