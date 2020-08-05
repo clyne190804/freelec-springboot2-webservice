@@ -29,7 +29,7 @@ public class PostsRepositoryTest {
         String content = "testContent";
         postsRepository.save(Posts.builder().title(title).content(content).author("jojoldu@gmail.com").build());
 
-        List<Posts> postsList = postsRepository.findAll();
+        List<Posts> postsList = postsRepository.findAll();//테스트
 
         Posts posts = postsList.get(0);
         assertThat(posts.getTitle()).isEqualTo(title);
